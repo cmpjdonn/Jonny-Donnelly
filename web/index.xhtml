@@ -7,8 +7,13 @@
         body {background-color: lightgrey; }
         body {text-align: center;}
         button {font-size: 25pt;}
-        #main body {border: 10px;}
+        
+        #main body {
+            border: 10px solid black;
+            padding: 15px;
+        }
     </style>
+    
     <h:head>
         <title>Vehicle Record System</title>
      
@@ -17,7 +22,7 @@
         <div id="main body">
         <h1>Vehicle Record System</h1>
         <h2>Main Menu</h2>
-        <button type="button">List Vehicles</button>
+        <button type="button"><h:link value="List Vehicles" outcome="listVehicles" /></button>
         <button type="button">Add a Vehicle</button>
         <button type="button">Edit Vehicle Details</button>
         </div>
