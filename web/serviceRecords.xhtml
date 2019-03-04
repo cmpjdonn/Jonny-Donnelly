@@ -12,19 +12,11 @@
         <h:form>
             <table>
                 <h2>Current Details</h2>
-                <tr><td>Vehicle Manufacturer: </td><td><h:inputText value="" id="uname" size="64" /></td></tr>
-                <tr><td>Vehicle Model: </td><td><h:inputText value="" id="maxDvd" size="64"  /></td></tr>
+                <tr><td>Please enter vehicle license plate: </td><td><h:inputText value="" id="uname" size="64" /></td></tr>
+                <tr><td></td><td><h:commandButton type="submit" value="Enter" /></td></tr>
+                <button type="button"><h:link value="Add Service Record to Vehicle" outcome="addServiceRecord" /></button>
             </table>
-        </h:form>
-        <h:form>
-            <table>
-                <h2>New Details</h2>
-                <tr><td>Amount purchased for: </td><td><h:inputText value="" id="purcamt" size="64"  /></td></tr>
-                <tr><td>Vehicle License Plate: </td><td><h:inputText value="" id="licpt" size="64"  /></td></tr>
-                <tr><td>Insured?(Y/N): </td><td><h:inputText value="" id="insured" size="64"  /></td></tr>
-                <tr><td>MOT Due: </td><td><h:inputText value="" id="MOT" size="64"  /></td></tr>
-                <tr><td></td><td><h:commandButton type="submit" value="Make Changes" /></td></tr> 
-            </table>
+        
         </h:form>
     </h:body>
 </html>
