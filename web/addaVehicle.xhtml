@@ -2,11 +2,26 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html">
+    
+    
     <h:head>
-        <title>Facelet Title</title>
+        <link rel="stylesheet" href="Styling.css" type="text/css" media="screen,projection" />
+        <title>Add a vehicle</title>
     </h:head>
     <h:body>
-        Add a vehicle page
+        <h1>Add a Vehicle</h1>
+        <h:form>
+            <table> 
+                <tr><td>Vehicle Manufacturer: </td><td><h:inputText value="" id="vman" size="64" /></td></tr>
+                <tr><td>Vehicle Model: </td><td><h:inputText value="" id="vmod" size="64"  /></td></tr> 
+                <tr><td>Date Purchased: </td><td><h:inputText value="" id="dpurc" size="64"  /></td></tr>
+                <tr><td>Amount purchased for: </td><td><h:inputText value="" id="purcamt" size="64"  /></td></tr>
+                <tr><td>Vehicle License Plate: </td><td><h:inputText value="" id="licpt" size="64"  /></td></tr>
+                <tr><td>Insured?(Y/N): </td><td><h:inputText value="" id="insured" size="64"  /></td></tr>
+                <tr><td>MOT Due: </td><td><h:inputText value="" id="MOT" size="64"  /></td></tr>
+                <tr><td></td><td><h:commandButton type="submit" value="Add" /></td></tr> 
+            </table>
+        </h:form>
     </h:body>
 </html>
 
