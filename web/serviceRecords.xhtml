@@ -7,14 +7,14 @@
         <link rel="stylesheet" href="Styling.css" type="text/css" media="screen,projection" />
     </h:head>
     <h:body>
-        <h1>Vehicle Records</h1>
+        <a href="http://localhost:8080/Secure_Software_Development/"><img src="cartoon-house.png" width="82" height="86" title="Home" alt="Home"></img></a>
+        <h1>Vehicle Record System</h1>
+        <h2>Service Records</h2>
         
         <h:form>
             <table>
-                <h2>Current Details</h2>
-                <tr><td>Please enter vehicle license plate: </td><td><h:inputText value="" id="uname" size="64" /></td></tr>
-                <tr><td></td><td><h:commandButton type="submit" value="Enter" /></td></tr>
-                <button type="button"><h:link value="Add Service Record to Vehicle" outcome="addServiceRecord" /></button>
+                <button type="button"><h:link value="View Service Records" outcome="viewServiceRecords" /></button>
+                <button type="button"><h:link value="Add a Service Record" outcome="addServiceRecord" /></button>
             </table>
         
         </h:form>
