@@ -2,22 +2,28 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <style>
+        h3 {text-align: left;}
+        table{text-align: left;}
+    </style>
     <h:head>
         <link rel="stylesheet" href="Styling.css" type="text/css" media="screen,projection" />
-        <title>Facelet Title</title>
+        <title>Edit a Vehicle</title>
     </h:head>
     <h:body>
-        <h1>Edit a vehicle page</h1>        
+        <a href="http://localhost:8080/Secure_Software_Development/"><img src="cartoon-house.png" width="82" height="86" title="Home" alt="Home"></img></a>
+        <h1>Vehicle Record System</h1>
+        <h2>Edit a vehicle</h2>        
         <h:form>
             <table>
-                <h2>Current Details</h2>
+                <h3>Current Details</h3>
                 <tr><td>Vehicle Manufacturer: </td><td><h:inputText value="" id="uname" size="64" /></td></tr>
                 <tr><td>Vehicle Model: </td><td><h:inputText value="" id="maxDvd" size="64"  /></td></tr>
             </table>
         </h:form>
         <h:form>
             <table>
-                <h2>New Details</h2>
+                <h3>New Details</h3>
                 <tr><td>Amount purchased for: </td><td><h:inputText value="" id="purcamt" size="64"  /></td></tr>
                 <tr><td>Vehicle License Plate: </td><td><h:inputText value="" id="licpt" size="64"  /></td></tr>
                 <tr><td>Insured?(Y/N): </td><td><h:inputText value="" id="insured" size="64"  /></td></tr>
