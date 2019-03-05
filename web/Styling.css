@@ -7,12 +7,19 @@ and open the template in the editor.
     Created on : 04-Mar-2019, 13:38:12
     Author     : jords
 */
- h1 {text-decoration: underline; font-weight: bold; text-align: center;}
-        body {background-color: lightgrey; }
-        body {text-align: center;}
-        button {font-size: 25pt;}
-        
-        #main body {
-            border: 10px solid black;
-            padding: 15px;
-        }
+ h1 {
+     text-decoration: underline; 
+     font-weight: bold; 
+     text-align: center;
+ }
+body {
+    background-color: lightgrey; 
+    text-align: center;
+}
+button {
+    font-size: 25pt;
+}
+#main body {
+    border: 10px solid black;
+    padding: 15px;
+}
