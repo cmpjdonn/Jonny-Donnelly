@@ -2,11 +2,22 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html">
+    
+    
     <h:head>
-        <title>Facelet Title</title>
+        <link rel="stylesheet" href="Styling.css" type="text/css" media="screen,projection" />
+        <title>Service Records - Add a service record</title>
     </h:head>
     <h:body>
-        Hello from Facelets
+        <h1>Add a Service Record</h1>
+        <h:form>
+            <table> 
+                <tr><td>Vehicle License Plate: </td><td><h:inputText value="" id="vlic" size="64" /></td></tr>
+                <tr><td>Date of Service: </td><td><h:inputText value="" id="dserv" size="64"  /></td></tr> 
+                <tr><td>Service Type: </td><td><h:inputText value="" id="sertp" size="64"  /></td></tr>
+                <tr><td>Service Comments: </td><td><h:inputText value="" id="servcom" size="64"  /></td></tr>
+                <tr><td></td><td><h:commandButton type="submit" value="Add" /></td></tr> 
+            </table>
+        </h:form>
     </h:body>
 </html>
-
